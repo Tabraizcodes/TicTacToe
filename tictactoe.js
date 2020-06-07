@@ -1,4 +1,5 @@
 
+
 var sqaures = document.querySelectorAll("td");
 
 function change()
@@ -41,3 +42,16 @@ function headerColor()
 }
 
 setInterval("headerColor()",500)
+
+var restart = document.querySelector(".button");
+restart.addEventListener("click",function(){
+
+    var sq = document.querySelectorAll("td");
+
+    for(var i =0;i<sq.length;i++)
+    {
+        sq[i].textContent = " ";
+    }
+    
+   
+});
