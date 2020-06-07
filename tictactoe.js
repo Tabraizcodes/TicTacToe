@@ -1,5 +1,4 @@
 
-
 var sqaures = document.querySelectorAll("td");
 
 function change()
